@@ -23,6 +23,7 @@ import org.activiti.explorer.ExplorerApp;
 import org.activiti.explorer.I18nManager;
 import org.activiti.explorer.Messages;
 import org.activiti.explorer.ui.mainlayout.ExplorerLayout;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -94,7 +95,8 @@ public class EditorProcessDefinitionInfoComponent extends VerticalLayout {
     }
 
     if(streamSource != null) {
-      Embedded embedded = new Embedded(null, new ImageStreamSource(streamSource, ExplorerApp.get()));
+    //  Embedded embedded = new Embedded(null, new ImageStreamSource(streamSource, ExplorerApp.get()));
+    	Embedded embedded = new Embedded(null, new ImageStreamSource(streamSource, ExplorerApp.get()));
       embedded.setType(Embedded.TYPE_IMAGE);
       embedded.setSizeUndefined();
       
