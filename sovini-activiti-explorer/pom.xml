@@ -12,7 +12,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
      <jdk.version>1.7</jdk.version>
-    <activiti.version>5.15-SNAPSHOT</activiti.version>
+    <activiti.version>5.14</activiti.version>
     <slf4j.version>1.7.2</slf4j.version>
     <spring.framework.version>3.1.2.RELEASE</spring.framework.version>
     <mule.version>3.3.0</mule.version>
@@ -196,7 +196,12 @@
    
   </build>
 	
-	 <repositories>
+   <repositories>
+	 <repository>
+      <id>activiti</id>
+      <name>Activiti</name>
+        <url>https://maven.alfresco.com/nexus/content/repositories/activiti/</url> 
+    </repository> 
     <repository>
       <id>buzzmedia</id>
       <url>http://maven.thebuzzmedia.com</url> <!-- ImageScalr -->
