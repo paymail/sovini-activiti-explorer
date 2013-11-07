@@ -8,3 +8,9 @@ target
 .settings
 .DS_Store
 *.bpmn/
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
